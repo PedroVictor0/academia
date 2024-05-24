@@ -1,0 +1,110 @@
+header svg{
+    background-image: url(imagens/logo.PNG);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.logosclientes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.light{
+    color: #212529;
+    background-color: #DEE2E6;
+}
+
+.col-lg-4{
+    padding-top: 2rem;
+}
+
+section{
+    padding: 1em;
+}
+
+.hero{
+    background-image: url(imagens/hero..jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+#containersobrenos{
+    padding: 1em;
+}
+
+.quemsomos{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.albumportifolio{
+    padding-top: 2em;
+}
+
+.clientes{
+    display: flex;
+    padding-top: 2em;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cliente{
+    display: flex;
+    flex-direction: row;
+    border-radius: 1rem;
+    padding: 1em;
+    background-color: #2B3035;
+    gap: 1rem;
+}
+
+#Portifolio{
+    background-color: #1A1D20;
+    text-align: center;
+}
+
+#NossoTime{
+    background-image: url(./imagens/wallpaperteam.jpg);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+    text-align: center;
+}
+
+#NossoTime svg{
+    background-image: url(./imagens/usericon.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: cover;
+}
+
+.col svg{
+    background-image: url(./imagens/coding.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Servicos svg{
+    background-image: url(./imagens/keyboard.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#PrincipaisClientes svg{
+    background-image: url(./imagens/company.jpg);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#DepoimentoClientes svg{
+    background-image: url(./imagens/usericon.png);
+    background-position: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

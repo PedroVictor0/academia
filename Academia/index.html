@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <!-- Meta Dados -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Importações Externas -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Fonte Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- Fonte Iria -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- Importações Internas -->
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <link rel="shortcut icon" href="assets/imagens/pageicon.png" type="image/x-icon">
+    <!-- Título do Documento -->
+    <title>Fend2</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center py-1 mb-1">
+                <a href="logo.jpeg" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <!-- Logo -->
+                <svg class="bi me-2" h="32" height="32"></svg>
+                <span class="fs-4">IronSoul</span>
+                </a>
+                <!-- Nav -->
+                <nav>
+                    <!-- Lista da Navegação -->
+                    <ul class="nav nav-pills">
+                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">login</a></li>
+                    <li class="nav-item"><a href="#SobreNos" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#Servicos" class="nav-link">Planos</a></li>
+                    <li class="nav-item"><a href="#Portifolio" class="nav-link">Conheça</a></li>
+                    <li class="nav-item"><a href="#NossoTime" class="nav-link">Equipe</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <!-- Hero -->
+        <div class="hero">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                  <div class="col-lg-6">
+                    <!-- Título e Frase do Hero -->
+                    <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Bem Vindos à<br>IronSoul </h1>
+                    <p class="lead">Transformando ideias em inovação digital.<br>Com nossos aliados: JS, HTML e CSS, somos o próximo passo para a evolução.</p>
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <!-- Botões do Hero -->
+                        <a href="pag.html">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Iniciar</button>
+                        </a>
+                        <a href="#DepoimentoClientes">
+                            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Clientes</button>
+                        </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <!-- Sobre Nós -->
+        <section id="SobreNos" class="light">
+            <div class="container" id="containersobrenos">
+                <!-- Título da Sessão -->
+                <h2 class="border-bottom">Sobre Nós</h2>
+                <!-- Quem Somos -->
+                <div class="quemsomos">
+                    <h4>Quem Somos</h4>
+                    <p>Na IronSoul, somos muito mais do que apenas uma academia. Somos uma comunidade de indivíduos apaixonados por fitness, comprometidos em alcançar resultados excepcionais e transformar vidas.</p>
+                    <p>Nossa missão é proporcionar um ambiente acolhedor e motivador, onde cada pessoa pode descobrir seu potencial máximo, tanto físico quanto mental. Acreditamos que o verdadeiro poder vem de dentro, e é por isso que nos esforçamos para fortalecer não apenas os corpos, mas também as mentes e as almas de nossos membros.
+                    </p>
+                    <p>Com uma equipe dedicada de instrutores altamente qualificados e uma variedade de programas e aulas inovadoras, estamos aqui para orientar e apoiar você em cada passo de sua jornada de fitness. Na IronSoul, não apenas levantamos pesos - forjamos mentalidades resilientes, cultivamos hábitos saudáveis e inspiramos uns aos outros a alcançar novas alturas.</p>
+                    <p>Junte-se a nós na IronSoul e descubra o que significa ser verdadeiramente uma alma de ferro.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Serviços -->
+        <section id="Servicos">
+            <div class="container">
+                <!-- Título da Sessão -->
+                <h2>Nossos Planos</h2>
+                <ul class="list-unstyled">
+                    <!-- Lista de Serviços -->
+                    <!-- Serviço 1 -->
+                    <li>
+                        <!-- Link do Serviço -->
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+                        <div class="col-lg-8">
+                            <!-- Título de Serviço -->
+                            <h6 class="mb-0">Serviço 1</h6>
+                            <!-- Descrição Breve -->
+                            <small class="text-body-secondary">É um serviço</small>
+                        </div>
+                        </a>
+                    </li>
+                    <!-- Serviço 2 -->
+                    <li>
+                        <!-- Link do Serviço -->
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+                        <div class="col-lg-8">
+                            <!-- Título de Serviço -->
+                            <h6 class="mb-0">Serviço 2</h6>
+                            <!-- Descrição Breve -->
+                            <small class="text-body-secondary">É um serviço</small>
+                        </div>
+                        </a>
+                    </li>
+                    <!-- Serviço 3 -->
+                    <li>
+                        <!-- Link do Serviço -->
+                        <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                        <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"></svg>
+                        <div class="col-lg-8">
+                            <!-- Título de Serviço -->
+                            <h6 class="mb-0">Serviço 3</h6>
+                            <!-- Descrição Breve -->
+                            <small class="text-body-secondary">É um serviço</small>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+    <!-- Contato -->
+    <section id="Contato">
+        <div class="container">
+            <h2 class="border-bottom">Contato</h2>
+            <h6>Preencha informações de sua empresa e o motivo do contato</h6>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Telefone</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Endereço</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="input-group">
+                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                    </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Não sou um robô</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+        </div>
+    </section>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#SobreNos" class="nav-link px-2 text-body-secondary">Sobre</a></li>
+            <li class="nav-item"><a href="#Servicos" class="nav-link px-2 text-body-secondary">Serviços</a></li>
+            <li class="nav-item"><a href="#Portifolio" class="nav-link px-2 text-body-secondary">Portifólio</a></li>
+            <li class="nav-item"><a href="#NossoTime" class="nav-link px-2 text-body-secondary">Equipe</a></li>
+        </ul>
+        <div class="container">
+        </div>
+        <p class="text-center text-body-secondary">Copyright © 2024 Fend2. – Todos os direitos reservados.</p>
+      </footer>
+</body>
+</html>
